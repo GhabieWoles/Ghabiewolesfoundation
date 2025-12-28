@@ -18,13 +18,36 @@
 </header>
 
 <section>
-  <p>Email us at:</p>
-  <p><strong>info@ghabiewolesfoundation.org</strong></p>
+  <section>
+  <h2>Get in Touch</h2>
+
+  <form name="contact"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field">
+
+    <!-- Hidden field for Netlify -->
+    <input type="hidden" name="form-name" value="contact">
+
+    <!-- Anti-spam field -->
+    <p hidden>
+      <label>Don’t fill this out: <input name="bot-field"></label>
+    </p>
+
+    <p>
+      <input type="text" name="name" placeholder="Your Name" required>
+    </p>
+
+    <p>
+      <input type="email" name="email" placeholder="Your Email" required>
+    </p>
+
+    <p>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+    </p>
+
+    <p>
+      <button type="submit">Send Message</button>
+    </p>
+  </form>
 </section>
-
-<footer>
-  <p>© 2025 Ghabie Woles Foundation</p>
-</footer>
-
-</body>
-</html>
