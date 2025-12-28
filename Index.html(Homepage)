@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ghabie Woles Foundation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Ghabie Woles Foundation</h1>
+  <p>Inspiring Growth. Nurturing Potential. One life at a time.</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="donate.html">Donate</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Our Mission</h2>
+  <p>
+    We exist to uplift the less privileged through mentorship, education,
+    and practical support — creating lasting impact in communities.
+  </p>
+</section>
+
+<footer>
+  <p>© 2025 Ghabie Woles Foundation</p>
+</footer>
+
+</body>
+</html>
